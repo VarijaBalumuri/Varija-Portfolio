@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varija Balumuri | Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <!-- Meta tags for accessibility and SEO -->
+    <meta name="description"
+        content="Varija Balumuri Portfolio - Engineer by Day, AI Explorer by Passion | Java • Spring Boot • Cloud Native">
+    <meta name="keywords" content="Full Stack Java Developer, Java Backend Specialist, Building Scalable APIs, portfolio, microservices">
+    <meta name="author" content="Varija Balumuri">
+    <!-- Accessibility meta tags -->
+    <meta name="color-scheme" content="dark light">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#" id="top-link">
+                    <span class="logo-text">Varija Balumuri</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" aria-label="About section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education" aria-label="Education section">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience" aria-label="Experience section">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" aria-label="Projects section">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" aria-label="Contact section">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-3" href="resume"
+                                target="_blank" aria-label="Download resume">
+                                <i class="fas fa-download me-2"></i> Resume
+                            </a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <button class="btn btn-outline-light theme-toggle" id="theme-toggle"
+                                aria-label="Toggle light/dark mode">
+                                <i class="fas fa-moon" id="dark-icon"></i>
+                                <i class="fas fa-sun d-none" id="light-icon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container py-5 mt-5">
+            <div class="profile-container mb-5">
+                <div class="profile-section">
+                    <div class="profile-info">
+                        <img src="" alt="Profile Picture" class="profile-image mb-4">
+                        <h1 class="display-4">Varija Balumuri</h1>
+                        <p class="lead">Engineer by Day, AI Explorer by Passion | Java • Spring Boot • Cloud Native </p>
+                    </div>
+
+                    <!-- GitHub metrics section commented out as requested
+                <div class="github-metrics-container">
+                    <div class="github-metrics" id="github-metrics">
+                        <div class="metric-item">
+                            <div class="metric-value">20+</div>
+                            <div class="metric-label">GitHub Repositories</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">300+</div>
+                            <div class="metric-label">GitHub Contributions</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">15+</div>
+                            <div class="metric-label">Pull Requests</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">10+</div>
+                            <div class="metric-label">Open Source Contributions</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">150+</div>
+                            <div class="metric-label">LeetCode Problems</div>
+                        </div>
+                    </div>
+                    <div class="metrics-navigation">
+                        <button id="prev-metric" aria-label="Previous metric"><i class="fas fa-chevron-left"></i></button>
+                        <button id="next-metric" aria-label="Next metric"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="metrics-dots" id="metrics-dots">
+                        <div class="metrics-dot active"></div>
+                        <div class="metrics-dot"></div>
+                        <div class="metrics-dot"></div>
+                        <div class="metrics-dot"></div>
+                        <div class="metrics-dot"></div>
+                    </div>
+                </div>
+                -->
+                </div>
+
+                <div class="mt-4 text-center">
+                    <p class="fs-5">
+                        Java Full-Stack Developer with 3+ years of experience building scalable, high-performance applications.
+Skilled in developing RESTful APIs and microservices using Java, Spring Boot, Hibernate, JPA and Angular.
+Proficient with cloud technologies like AWS, messaging systems like Kafka, and containerization tools like Docker and Kubernetes. 
+Passionate about clean architecture, testing, and contributing to open source.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Include About Section -->
+            <section id="about" class="mb-5">
+                <h2 class="mb-4">About Me</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Background</h3>
+                        <p>
+                            My journey into the world of software development began during my graduate studies in Computer Science.
+                            While pursuing my Master’s degree, I had the opportunity to work as a Graduate Research Assistant,
+                            where I collaborated on real-world projects, honing my software engineering skills.
+                            This early exposure laid a strong foundation for me in understanding complex systems and problem-solving.
+                            <br>
+                            <br>
+                            After completing my master's, I stepped into the professional world as a Full Stack Developer at the junior level, where I quickly grew by taking on increasingly complex challenges. 
+                            I specialized in developing RESTful APIs using Java and Spring Boot, and I worked on building user-friendly web applications with Angular. 
+                            My role also expanded into leadership as I was entrusted with mentoring junior developers, which strengthened my skills in communication, collaboration, and guiding others toward success.
+                            <br>
+                            <br>I gained hands-on experience in implementing CI/CD pipelines using Jenkins, containerizing applications with Docker, and managing infrastructure through Terraform. 
+                            This allowed me to deploy and scale applications efficiently, particularly when leveraging Kubernetes on AWS for cloud-native solutions. 
+                            Working with Kafka introduced me to real-time data processing, which enhanced my ability to integrate data seamlessly into applications for better performance and reliability.
+                            <br>
+                            <br>Throughout my journey, I’ve always thrived in Agile environments, focusing on maintaining code quality through unit and integration testing. 
+                            What excites me most about technology is how it can drive meaningful change, and I’ve found that clear communication, initiative, and continuous learning are essential in building high-impact solutions.
+                            <br>
+                            With 3 years of experience as a Full Stack Developer, I’m passionate about crafting scalable, efficient, and secure applications while continuously evolving as a developer.
+                            <br>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Skills</h3>
+                        <div class="mb-4">
+                            <h4>Expertise Areas</h4>
+                            <span class="badge bg-primary me-2 mb-2">Full Stack Development</span>
+                            <span class="badge bg-primary me-2 mb-2">Backend API Development</span>
+                            <span class="badge bg-primary me-2 mb-2">Frontend Web Development</span>
+                            <span class="badge bg-primary me-2 mb-2">Cloud-Native Application Deployment</span>
+                            <span class="badge bg-primary me-2 mb-2">DevOps & CI/CD</span>
+                            <span class="badge bg-primary me-2 mb-2">Agile Software Development</span>
+                        </div>
+                        <div class="mb-4">
+                            <h4>Frameworks & Tools</h4>
+                            <span class="badge bg-primary me-2 mb-2">Backend Development</span>
+                            <p>Strong in designing and building robust backend systems and RESTful APIs.</p>
+                            <span class="badge bg-secondary me-2 mb-2">Languages: Java, JavaScript, TypeScript</span>
+                            <span class="badge bg-secondary me-2 mb-2">Frameworks: Spring Boot, Hibernate, JPA</span>
+                            <span class="badge bg-secondary me-2 mb-2">API Development: RESTful Services, Swagger/OpenAPI</span>
+                            <span class="badge bg-secondary me-2 mb-2">Security: OAuth2, JWT, Spring Security</span>
+                            <span class="badge bg-secondary me-2 mb-2">SQL & NoSQL Databases: SQL Server, PostgreSQL,
+                                MongoDB, DynamoDB</span>
+
+                            <br>
+
+                            <span class="badge bg-primary me-2 mb-2">Frontend Development</span>
+                            <p>Capable of delivering responsive and user-friendly web applications.</p>
+                            <span class="badge bg-secondary me-2 mb-2">Frameworks: Angular</span>
+                            <span class="badge bg-secondary me-2 mb-2">Languages: HTML5, CSS3, JavaScript, TypeScript</span>
+                            <span class="badge bg-secondary me-2 mb-2">State Management: RxJS, NgRx</span>
+
+                            <br>
+                            <span class="badge bg-primary me-2 mb-2">Cloud & DevOps</span>
+                            <p>Proficient in deploying and managing applications in cloud environments with automation.</p>
+                            <span class="badge bg-secondary me-2 mb-2">Cloud Platforms: AWS (EC2, S3, EKS), Terraform, Azure&GCP(Basic)</span>
+                            <span class="badge bg-secondary me-2 mb-2">Containerization & Orchestration: Docker, Kubernetes</span>
+                            <span class="badge bg-secondary me-2 mb-2">CI/CD: Jenkins, GitHub Actions</span>
+                            <span class="badge bg-secondary me-2 mb-2">Monitoring & Logging: AWS CloudWatch, Splunk, Data dog</span>
+
+                            <br>
+                            <span class="badge bg-primary me-2 mb-2">Testing, Messaging tools & Agile Practices</span>
+                            <p>Focused on delivering maintainable, testable code in Agile environments.</p>
+                            <span class="badge bg-secondary me-2 mb-2">Testing Tools: JUnit, Mockito, Postman</span>
+                            <span class="badge bg-secondary me-2 mb-2">Messaging Tools: Apache Kafka</span>
+                            <span class="badge bg-secondary me-2 mb-2">Practices: TDD, BDD, Agile/Scrum</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Include Education Section -->
+            <section id="education" class="mb-5">
+                <h2 class="mb-4">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Master of Science in Computer Science</h3>
+                        <p class="text-muted">University of Alabama in Huntsville | Aug 2021 - Dec 2022 | Huntsville, AL, USA</p>
+                        <ul>
+                            </li>
+                            <li>Relevant Coursework: Advanced Software Engineering, Core Java, Data Structures, Database Management Systems, Operating Systems, Cloud Computing</li>
+                            <li>GPA: 3.5/4.0</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                        <h2>Specialized in Computer Communications</h2>
+                        <p class="text-muted">Koneru Lakshmaiah University | 2017 - 2021 | Vijayawada, India
+                        </p>
+                        <ul>
+                            <li>Relevant Coursework: Database Management Systems, Data Structures, Operating Systems,
+                                Computer Networks</li>
+                            <li>GPA: 3.8/4.0</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Include Experience Section -->
+            <section id="experience" class="mb-5">
+                <h2 class="mb-4">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Full-Stack Java Developer</h3>
+                        <p class="text-muted">Unum  | December 2023 - Present </p>
+                        <ul>
+                            <li>Built a dynamic claims analytics dashboard using Angular (v15) with TypeScript,
+                                integrating with REST APIs to visualize real-time fraud detection scores and claim statuses, reducing manual claim triage effort by ~40%.
+                            <li>Designed and developed RESTful microservices in Java (17) with Spring Boot, leveraging JWT-based auth and
+                                API gateway for secure communication; boosted modular deployment and fault tolerance across claims and provider modules. </li>
+                            <li> Integrated AWS stack including EC2 (microservices), S3 (data archival), RDS (Postgres),
+                                and CloudWatch, with Terraform templates and autoscaling setup, achieving 99.9% uptime for the application in production.</li>
+                                <li> Led CI/CD pipeline automation with GitHub Actions + Jenkins, Dockerized frontend/backend apps,
+                                    and implemented canary deployment strategy; cut release cycle time from 2 weeks to 3 days.</li>
+                                <li> •	Collaborated with Data Science team to expose ML model endpoints for claim fraud probability (via SageMaker-hosted APIs);
+                                    built feedback ingestion pipelines to log user overrides and retrain models quarterly with 10% precision gain.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Software Developer</h3>
+                        <p class="text-muted">AIG  | January 2023 - November 2023</p>
+                        <ul>
+                            <li>Built and updated key React components (tables, charts, modals) for the investment dashboard used by internal advisors;
+                                consumed REST APIs for portfolio and plan data, and added loading/error states</li>
+                            <li>Worked on frontend integration of an LLM-powered financial assistant, using a simple prompt-response API;
+                                handled API responses, user input cleanup, and UI-level retry logic.</li>
+                            <li>Helped write and test REST endpoints in Spring Boot for portfolio data queries; learned to use Postman
+                                for testing and made small schema changes in PostgreSQL under guidance.</li>
+                            <li>Supported AWS CloudWatch setup by writing basic logs and alarms for frontend API failures;
+                                also helped fix minor issues in Glue job configs that were slowing daily investment data updates.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Full Stack Developer</h3>
+                        <p class="text-muted">Sage Softtech | February 2019 - July 2021</p>
+                        <ul>
+                            <li>Refactored the authentication layer across 4 microservices by implementing a centralized JWT-based RESTful API using Spring Boot, 
+                                resolving inconsistent token validation issues and reducing unauthorized access audit log entries by 70%.</li>
+                            <li>Developed validation and reconciliation logic in Java to catch employer-contributed fund mismatches during batch ingestion, 
+                                handling edge cases and preventing 6–8 silent anomalies/day from polluting downstream financial reports.</li>
+                            <li>Coordinated a secure migration of 200K+ customer records from legacy on-prem DB to AWS RDS, writing idempotent SQL scripts, 
+                                resolving schema mismatches, and setting up rollback checkpoints to ensure safe, one-time ingestion.</li>
+                            <li>Built a CLI-based internal tool in plain Java for on-demand reprocessing of failed sync jobs related to portfolio data; adopted by QA/support teams, saving ~4 manual hours/week during patch release and reconciliation cycles.
+
+</li>
+                        </ul>
+                    </div>
+            </section>
+
+
+            <!-- Include Projects Section -->
+            <section id="projects" class="mb-5">
+                <h2 class="mb-4">Projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Email Tracker</h3>
+                                <p class="card-text">An end-to-end application for tracking and visualizing email status. The backend REST API handles email tracking data,
+                                    while the Angular frontend provides a user-friendly interface to visualize email statuses.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-primary me-2">Java</span>
+                                    <span class="badge bg-primary me-2">Spring Boot</span>
+                                    <span class="badge bg-primary me-2">Angular</span>
+                                    <span class="badge bg-primary me-2">Rest API</span>
+                                    <span class="badge bg-primary me-2">Kafka</span>
+                                    <span class="badge bg-primary me-2">Node.js</span>
+                                </div>
+                                <a href="ps://github.com/VarijaBalumuri/email-tracker-project"
+                                    class="btn btn-outline-primary">
+                                    <i class="fab fa-github me-2"></i>View on GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Include Contact Section -->
+            <section id="contact" class="mb-5">
+                <h2 class="mb-4">Contact</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h3 class="mb-4">Let's Connect!</h3>
+
+                                <div class="social-links mb-4">
+                                    <a href="https://github.com/VarijaBalumuri" target="_blank" title="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/varijab/" target="_blank" title="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="mailto:varija@techsmail.com" title="Email">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+
+                                <div class="contact-details">
+                                    <p class="mb-2">
+                                        <i class="fas fa-envelope me-2"></i>
+                                        varija@techsmail.com
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="fab fa-github me-2"></i>
+                                        https://github.com/VarijaBalumuri
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="fab fa-linkedin me-2"></i>
+                                        https://www.linkedin.com/in/varijab/
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer mt-5 py-4">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2025 Varija Balumuri. All rights reserved.</p>
+                <div class="social-links mt-2">
+                    <a href="https://github.com/LikithKumarDundigalla" target="_blank" aria-label="GitHub profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/likithkumard04" target="_blank" aria-label="LinkedIn profile">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Theme toggle functionality
+            const themeToggle = document.getElementById('theme-toggle');
+            const darkIcon = document.getElementById('dark-icon');
+            const lightIcon = document.getElementById('light-icon');
+            const htmlElement = document.documentElement;
+
+            if (themeToggle) {
+                themeToggle.addEventListener('click', function () {
+                    if (htmlElement.getAttribute('data-bs-theme') === 'dark') {
+                        htmlElement.setAttribute('data-bs-theme', 'light');
+                        darkIcon.classList.add('d-none');
+                        lightIcon.classList.remove('d-none');
+                    } else {
+                        htmlElement.setAttribute('data-bs-theme', 'dark');
+                        lightIcon.classList.add('d-none');
+                        darkIcon.classList.remove('d-none');
+                    }
+                });
+            }
+
+            // Add scroll to top functionality for the logo
+            const topLink = document.getElementById('top-link');
+            if (topLink) {
+                topLink.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    if (this.id === 'top-link') return; // Skip if it's the top link (already handled)
+
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70, // Adjust for navbar height
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
